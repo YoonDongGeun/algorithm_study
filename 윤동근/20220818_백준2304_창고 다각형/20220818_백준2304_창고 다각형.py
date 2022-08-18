@@ -27,8 +27,3 @@ for i in range(len(H_LIST_USED_RIGHT)-1):
     AREA -= H_LIST_USED_RIGHT[i][1] * (H_LIST_USED_RIGHT[i+1][0] - H_LIST_USED_RIGHT[i][0]) # 뒤에서 앞으로 넓이 더하기
 AREA += H_MAX[1]    # 가장 높은 기둥의 넓이 더하기
 print(AREA)
-
-
-
-
-
