@@ -59,7 +59,7 @@ for _ in range(1, T+1):
         else:
             gate_.append(-i // 2)
 
-    min_ = 100000                         # min_값은
+    min_ = 100000                       # min_값은
     GP = [i for i in G_LIST]            # GP의 게이트 1, 2, 3 의 위치와 그곳 의 사람수 가져오기 (위치, 사람수), (위치2, 사람수2)...
     GPs = []
     per(0, GP)                          # GPs에 GP의 모든 순서 조합에 대해 추가하는 함수 per
