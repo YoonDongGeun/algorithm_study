@@ -26,9 +26,9 @@ for T in range(1,int(input())+1):
     L=[list(map(int,input().split())) for _ in '___']
     s=1000000
     for c in C:
-        I1,N1=L[c[0]][0],L[c[0]][1]
-        I2,N2=L[c[1]][0],L[c[1]][1]
-        I3,N3=L[c[2]][0],L[c[2]][1]
+        I1,N1 = L[c[0]][0],L[c[0]][1]
+        I2,N2 = L[c[1]][0],L[c[1]][1]
+        I3,N3 = L[c[2]][0],L[c[2]][1]
         out1s=take(F[:],I1,N1)
         print('out1s:',out1s)
         for out1 in out1s[0]:
