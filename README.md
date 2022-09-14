@@ -3,7 +3,9 @@
  <h2 align="center"> 윤동근 </h2>
  <div align="center">
   
- ![윤동근's GitHub stats](https://github-readme-stats.vercel.app/api?username=YoonDongGeun&show_icons=true&theme=radical) [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=ehdrmsdl9999)](https://solved.ac/ehdrmsdl9999)
+ ![윤동근's GitHub stats](https://github-readme-stats.vercel.app/api?username=YoonDongGeun&show_icons=true&theme=radical) [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ehdrmsdl9999)](https://solved.ac/ehdrmsdl9999)
+  
+  
   
 </div>
 
@@ -50,8 +52,7 @@
  <div align="center">
  
 
-![인수경's GitHub stats](https://github-readme-stats.vercel.app/api?username=SuGyoungIn&show_icons=true&theme=radical)  [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=isks2)](https://solved.ac/isks2)
- 
+![인수경's GitHub stats](https://github-readme-stats.vercel.app/api?username=SuGyoungIn&show_icons=true&theme=radical) [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=isks2)](https://solved.ac/isks2)
  </div>
 
 <div align="center">
