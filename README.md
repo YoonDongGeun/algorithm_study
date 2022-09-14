@@ -49,7 +49,8 @@
 <h2 align="center"> 인수경 </h2>
  <div align="center">
  
-![인수경's GitHub stats](https://github-readme-stats.vercel.app/api?username=SuGyoungIn&show_icons=true&theme=radical)
+
+![인수경's GitHub stats](https://github-readme-stats.vercel.app/api?username=SuGyoungIn&show_icons=true&theme=radical)  [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=isks2)](https://solved.ac/isks2)
  
  </div>
 
