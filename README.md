@@ -1,7 +1,8 @@
 알고리즘 스터디
-
-  ![윤동근's GitHub stats](https://github-readme-stats.vercel.app/api?username=YoonDongGeun&show_icons=true&theme=radical)
 <div>
+  
+  ![윤동근's GitHub stats](https://github-readme-stats.vercel.app/api?username=YoonDongGeun&show_icons=true&theme=radical)
+
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
   <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
