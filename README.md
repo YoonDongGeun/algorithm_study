@@ -1,4 +1,5 @@
 알고리즘 스터디
+<body>
 <div>
 ![윤동근's GitHub stats](https://github-readme-stats.vercel.app/api?username=YoonDongGeun&show_icons=true&theme=radical)
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
@@ -29,3 +30,4 @@
 <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
 <br>
 개설일 : 2022-08-01
+  </body>
