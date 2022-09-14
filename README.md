@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
 </div>
 <br>
+
 ![송경삼's GitHub stats](https://github-readme-stats.vercel.app/api?username=GyeongSam&show_icons=true&theme=radical)
 
 <div>
@@ -19,6 +20,7 @@
   <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
 </div>
 <br>
+
 ![변유정's GitHub stats](https://github-readme-stats.vercel.app/api?username=SPIDEY965&show_icons=true&theme=radical)
 
 <div>
@@ -29,6 +31,7 @@
   <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
 </div>
 <br>
+
 ![인수경's GitHub stats](https://github-readme-stats.vercel.app/api?username=SuGyoungIn&show_icons=true&theme=radical)
 
 <div>
@@ -38,6 +41,7 @@
   <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
 </div>
+
 <br>
 개설일 : 2022-08-01
 
