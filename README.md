@@ -1,8 +1,7 @@
 알고리즘 스터디
-<div align="center">
+<div align="between">
  
  ![윤동근's GitHub stats](https://github-readme-stats.vercel.app/api?username=YoonDongGeun&show_icons=true&theme=radical)
- 
  [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=ehdrmsdl9999)](https://solved.ac/ehdrmsdl9999)
  
  </div>
