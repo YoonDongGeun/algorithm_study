@@ -2,6 +2,7 @@
 
 ![윤동근's GitHub stats](https://github-readme-stats.vercel.app/api?username=YoonDongGeun&show_icons=true&theme=radical)
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=C++&logoColor=white">
 ![송경삼's GitHub stats](https://github-readme-stats.vercel.app/api?username=GyeongSam&show_icons=true&theme=radical)
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 ![변유정's GitHub stats](https://github-readme-stats.vercel.app/api?username=SPIDEY965&show_icons=true&theme=radical)
