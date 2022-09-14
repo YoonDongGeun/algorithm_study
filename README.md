@@ -25,7 +25,8 @@
 <h2 align="center"> 송경삼 </h2>
  <div align="center">
  
-![송경삼's GitHub stats](https://github-readme-stats.vercel.app/api?username=GyeongSam&show_icons=true&theme=radical)
+![송경삼's GitHub stats](https://github-readme-stats.vercel.app/api?username=GyeongSam&show_icons=true&theme=radical) [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=rud7tka)](https://solved.ac/rud7tka)
+  
  
 </div>
 <div align="center">
@@ -34,12 +35,15 @@
   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
   <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
+ 
+ [![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=rud7tka)](https://solved.ac/rud7tka)
+ 
 </div>
 <br>
 <h2 align="center"> 변유정 </h2>
  <div align="center">
  
-![변유정's GitHub stats](https://github-readme-stats.vercel.app/api?username=SPIDEY965&show_icons=true&theme=radical)
+![변유정's GitHub stats](https://github-readme-stats.vercel.app/api?username=SPIDEY965&show_icons=true&theme=radical) [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dpdpgh555)](https://solved.ac/dpdpgh555)
  
 </div>
 <div align="center">
@@ -48,6 +52,9 @@
   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
   <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
+ 
+ [![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=dpdpgh555)](https://solved.ac/dpdpgh555)
+ 
 </div>
 <br>
 <h2 align="center"> 인수경 </h2>
