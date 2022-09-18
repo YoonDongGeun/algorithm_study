@@ -7,6 +7,19 @@ int main(void)
   int b;
 
   scanf("%d %d", &a, &b);
-  printf("%d\n", a + b);
+
+  if (a > b)
+  {
+    printf(">");
+  }
+  else if (a < b)
+  {
+    printf("<");
+  }
+  else
+  {
+    printf("==");
+  }
+
   return 0;
 }
