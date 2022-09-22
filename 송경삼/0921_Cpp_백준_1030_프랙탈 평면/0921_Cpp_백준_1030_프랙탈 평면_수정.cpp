@@ -3,22 +3,14 @@
 int s, N, K, R1, R2, C1, C2, i,j,l,r, n;
 
 int goback(int s,int di, int dj) {	// s:과거로 돌아가야할 횟수, di:현재 i좌표, dj:현재 j좌표
-	if (!s) {				// 태초는 하얀색 사각형 하나입니다.
+	if ((di%N) >= l && (di%N) < r && (dj%N) >= l && (dj%N) < r) {
+      return 1;    // 한 번이라도 해당 영역에 속했던 경우 무조건 검은색입니다.
+  }
+  if (!s) {				//태초에 도착했다면 0을 돌려줍니다
 		return 0;
 	}
-	else {
-		int x;
-		x=goback(s-1, di / N, dj / N);		// x 는 바로 전 과거의 di/N, dj/N 점프로 부터 온 정보입니다.
-		if (!x) {	//x가 하얀색 사각형이었다면		
-			if ((di%N) >= l && (di%N) < r && (dj%N) >= l && (dj%N) < r) {
-				return 1;	// 가운데에 속한 점은 검은색 사각형입니다.
-			}
-			else return 0;	// 외곽은 하얀색 사각형입니다.
-		}
-		else return 1;	//검은색사각형으로 부터
-	}
+	return goback(s-1, di / N, dj / N);
 }
-
 
 int main() {
 	scanf("%d %d %d %d %d %d %d", &s, &N, &K, &R1, &R2, &C1, &C2);
