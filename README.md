@@ -123,6 +123,34 @@
  [![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=isks2)](https://solved.ac/isks2)
 </div>
 
+</div>
+<br>
+<h2 align="center"> 김진수 </h2>
+ <div align="center">
+ 
+![김진수's GitHub stats](https://github-readme-stats.vercel.app/api?username=Seori15&show_icons=true&theme=radical) [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dpdpgh555)](https://solved.ac/dpdpgh555)
+ 
+</div>
+<div align="center">
+  <h3>Languages & Platforms </h3>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+  <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
+ <div>
+ <h3>IDEs</h3>
+  </div>
+ 
+ ![Git](https://img.shields.io/badge/Git-F05032.svg?&style=for-the-badge&logo=Git&logoColor=white)
+ ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
+ <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=for-the-badge&logo=VisualStudio&logoColor=white">
+  <div>
+ <h3>Achievement</h3>
+  </div>
+ 
+ [![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=dpdpgh555)](https://solved.ac/dpdpgh555)
 <br>
 개설일 : 2022-08-01
+
 
