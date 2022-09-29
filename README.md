@@ -128,7 +128,7 @@
 <h2 align="center"> 김진수 </h2>
  <div align="center">
  
-![김진수's GitHub stats](https://github-readme-stats.vercel.app/api?username=wlstn6278&show_icons=true&theme=radical) [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlstn6278)](https://solved.ac/wlstn6278)
+![김진수's GitHub stats](https://github-readme-stats.vercel.app/api?username=seori15&show_icons=true&theme=radical) [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlstn6278)](https://solved.ac/wlstn6278)
  
 </div>
 <div align="center">
