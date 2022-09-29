@@ -128,7 +128,7 @@
 <h2 align="center"> 김진수 </h2>
  <div align="center">
  
-![김진수's GitHub stats](https://github-readme-stats.vercel.app/api?username=wlstn6278&show_icons=true&theme=radical) [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=seori15)](https://solved.ac/wlstn6278)
+![김진수's GitHub stats](https://github-readme-stats.vercel.app/api?username=wlstn6278&show_icons=true&theme=radical) [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlstn6278)](https://solved.ac/wlstn6278)
  
 </div>
 <div align="center">
@@ -149,7 +149,7 @@
  <h3>Achievement</h3>
   </div>
  
- [![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=dpdpgh555)](https://solved.ac/wlstn6278)
+ [![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=wlstn6278)](https://solved.ac/wlstn6278)
 <br>
 개설일 : 2022-08-01
 
