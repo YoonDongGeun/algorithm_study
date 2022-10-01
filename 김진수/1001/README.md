@@ -1,6 +1,6 @@
 # 221001 TIL
 
-<img title="" src="file:///readme/untitled.png" alt="loading-ag-126">
+<img title="" src="README_assets/8f45c78d547af90a146d0a1317b155e8cc7cc618.png" alt="loading-ag-126">
 
 ## 자료형
 
