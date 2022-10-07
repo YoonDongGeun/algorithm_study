@@ -1,54 +1,35 @@
 #include <iostream>
-int small[16][1 << 16] = { 0, } , M[16][16], N, ans, min, v;
-int Q[16];
+int small[16][1 << 16], M[16][16]{ 0, }, N, ans, min;
+
 int search(int now, int acted)
 {
-	if (small[now][acted] != 0)
+	if (small[now][acted] != -1)      // 이미 지났으면 return
 	{
 		return small[now][acted];
 	}
 
-	if (acted == ans)
+	if (acted == ans)                 // 모두 순회했으면
 	{
-		if (M[now][0] == 0)
+		if (M[now][0] == 0)          // 순회 불가하면
 		{
-			return -1;
+			return 1000000000;
 		}
-		return M[now][0];
+		return M[now][0];           // 아니면 return
 	}
-
-	int *p = Q;
+	small[now][acted] = 1000000000;
 	for (int i = 0; i < N; i++)
 	{
 		if (acted&(1 << i) || M[now][i] == 0)
 		{
 			continue;
 		}
-		v = search(i, acted | (1 << i));
-		if (v == -1)
+		int v = search(i, acted | (1 << i));
+		if (small[now][acted] > v + M[now][i])
 		{
-			continue;
+			small[now][acted] = v + M[now][i];
 		}
-		*p = v + M[now][i];
-		p++;
-		
-
 	}
-	if (p - Q == 0)
-	{
-		return -1;
-	}
-	if (*p > Q[0])
-	{
-		small[now][acted] = Q[0];
-	}
-	else
-	{
-		small[now][acted] = *p;
-	}
-	
 	return small[now][acted];
-	
 }
 
 int main(void)
@@ -63,8 +44,11 @@ int main(void)
 		{
 			std::cin >> M[i][j];
 		}
+		for (int j = 0; j < (1 << N); j++)
+		{
+			small[i][j] = -1;
+		}
 	}
-
 	min = search(0, 1);
 	std::cout << min << '\n';
 	return 0;
