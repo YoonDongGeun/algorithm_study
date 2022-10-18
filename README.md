@@ -158,7 +158,7 @@
 <h2 align="center"> 신동찬 </h2>
  <div align="center">
  
-![신동찬's GitHub stats](https://github-readme-stats.vercel.app/api?username=chanshin0&show_icons=true&theme=radical) [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=windcj1)](https://solved.ac/chanshin0)
+![신동찬's GitHub stats](https://github-readme-stats.vercel.app/api?username=chanshin0&show_icons=true&theme=radical) [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=windcj1)](https://solved.ac/windcj1)
  
 </div>
 <div align="center">
