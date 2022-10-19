@@ -40,7 +40,7 @@ int main(void){
   }
 
   avg /= N;
-  if (round(-avg) == -0)
+  if (round(avg) == -0)
     cout << round(-avg) << '\n';
   else
     cout << round(avg) << '\n';
