@@ -3,7 +3,7 @@
 #include <vector>
 #include <tuple>
 using namespace std;
-// 동근아 이거 왜안대냐
+// 이거 왜 안대냐 동근아
 // [A] 전역 변수 선언
 int N, M;
 int sea[300][300];
