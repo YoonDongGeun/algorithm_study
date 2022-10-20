@@ -2,20 +2,21 @@
 #include <queue>
 #include <vector>
 #include <tuple>
+#include <string.h>
 using namespace std;
-// 이거 왜 안대냐 동근아
+// Sam2형 채고
 // [A] 전역 변수 선언
 int N, M;
 int sea[300][300];
 bool visited[300][300];
 
 // [B] delta 방향 설정
-int di[] = { -1, 1, 0, 0 };
-int dj[] = { 0, 0, -1, 1 };
+int di[4] = { -1, 1, 0, 0 };
+int dj[4] = { 0, 0, -1, 1 };
 
 // [C] 빙산이 녹는 melt 함수 설정
 void melt()
-{	// 녹는 빙산의 좌표와 양을 melting[n]에 저장
+{	// 녹는 빙산의 좌표와 양을 melting[n]에 tuple로 저장
 	vector<tuple<int, int, int>> melting;
 	for (int i = 1; i < N-1; i++)
 	{
@@ -78,7 +79,7 @@ int bfs(int i, int j)
 			int ni = i + di[dr];
 			int nj = j + dj[dr];
 
-			if (not visited[ni][nj])
+			if (sea[i][j] && visited[ni][nj] == false)
 			{
 				q.push(make_pair(ni, nj));
 				visited[ni][nj] = true;
@@ -101,24 +102,25 @@ int main()
 			cin >> sea[i][j];
 		}
 	}
-
+	// [2] 매년 빙산이 녹는다.
 	int time = 0;
 	while (true)
 	{
 		melt();
 		time++;
+		// [2-1] BFS 탐색으로 녹은 후 빙산이 몇 덩어리인지 센다.
 		int iceberg = 0;
 		for (int i = 1; i < N - 1; i++)
 		{
 			for (int j = 1; j < M - 1; j++)
 			{
-				if (sea[i][j] && not visited[i][j])
+				if (sea[i][j] && visited[i][j] == false)
 				{
 					iceberg += bfs(i, j);
 				}
 			}
 		}
-
+		// [2-2] 1덩어리라면 continue, 아니라면 출력
 		if (iceberg == 1)
 		{
 			memset(visited, false, sizeof(visited));
@@ -126,12 +128,12 @@ int main()
 		}
 		else if (iceberg == 0)
 		{
-			cout << iceberg << endl;
+			cout << iceberg << '\n';
 			break;
 		}
 		else
 		{
-			cout << time << endl;
+			cout << time << '\n';
 			break;
 		}
 	}
