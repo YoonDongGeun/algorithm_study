@@ -4,8 +4,6 @@ int N, min=1e10;
 int field[100][100];
 int di[4] = { 0,1,0,-1 }, dj[4] = { 1,0,-1,0 };
 
-
-
 void dfs(int i, int j, int n,int num){
 	if (n >= min) return;
 	F(d, 4) {
@@ -17,9 +15,7 @@ void dfs(int i, int j, int n,int num){
 		}
 		dfs(ni, nj, n + 1, num);
 	}
-	
 }
-
 
 void makeland(int i, int j, int num) {
 	field[i][j] = num;
