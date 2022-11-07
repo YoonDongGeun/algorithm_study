@@ -27,7 +27,6 @@ int solution(int n, int s, int a, int b, vector<vector<int>> fares) {
 	}
 	for (int m = 1; m <= n; ++m) {
 		int temp = dp[s][m] + dp[m][a] + dp[m][b];
-		printf("%d:%d\n", m, temp);
 		if (temp < answer) answer = temp;
 	}
 
