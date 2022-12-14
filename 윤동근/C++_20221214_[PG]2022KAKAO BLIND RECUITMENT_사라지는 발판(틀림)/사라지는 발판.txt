@@ -1,0 +1,106 @@
+#include <string>
+#include <vector>
+#include <algorithm>
+using namespace std;
+vector<int> dx = {1, 0 , -1, 0};
+vector<int> dy = {0, 1, 0, -1};
+vector<int> sol;
+
+void search(vector<vector<int>> board, vector<int> aloc, vector<int> bloc, int turn, int &answer){
+    int ny, nx, oy, ox;
+    int ch = 0, ch2 = 0;
+    
+    if(turn % 2 == 0)
+    {
+        oy = aloc[0], ox = aloc[1];
+        for(int i=0; i<4; i++){
+            ny = oy + dy[i];
+            nx = ox + dx[i];
+            if(0 <= nx && nx < board[0].size() && 0 <= ny && ny< board.size()){
+                if(board[ny][nx] == 1){
+                    board[ny][nx] = 0;
+                    aloc[0] = ny, aloc[1] = nx;
+                    search(board, aloc, bloc, turn + 1, answer);
+                    aloc[0] = oy, aloc[1] = ox;
+                    board[ny][nx] = 1;
+                    ch = 1;
+                }
+                if(ny == bloc[0] && nx == bloc[1]){
+                    ch2 = 1;
+                }
+            }
+        }
+    }
+    else
+    {
+        oy = bloc[0], ox = bloc[1];
+        for(int i = 0; i < 4; i++){
+            ny = oy + dy[i];
+            nx = ox + dx[i];
+            if(0 <= nx && nx < board[0].size() && 0 <= ny && ny<board.size()){
+                if(board[ny][nx] == 1){
+                    board[ny][nx] = 0;
+                    bloc[0] = ny, bloc[1] = nx;
+                    search(board, aloc, bloc, turn + 1, answer);
+                    bloc[0] = oy, bloc[1] = ox;
+                    board[ny][nx] = 1;
+                    ch = 1;
+                }
+                if(ny == aloc[0] && nx == aloc[1]){
+                    ch2 = 1;
+                }
+            }
+        }
+    }
+    int ch3 = 0;
+    if(ch == 0){
+        if(ch2 == 1)
+        {
+            if(turn % 2 == 0){
+                oy = bloc[0], ox = bloc[1];
+                for(int i=0; i<4; i++){
+                    ny = oy + dy[i];
+                    nx = ox + dx[i];
+                    if(0 <= nx && nx < board[0].size() && 0 <= ny && ny < board.size()){
+                        if(board[ny][nx] == 1){
+                            ch3 = 1;
+                            sol.push_back(turn+2);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                oy = aloc[0], ox = aloc[1];
+                for(int i=0; i<4; i++){
+                    ny = oy + dy[i];
+                    nx = ox + dx[i];
+                    if(0 <= nx && nx < board[0].size() && 0 <= ny && ny < board.size()){
+                        if(board[ny][nx] == 1){
+                            ch3 = 1;
+                            sol.push_back(turn+2);
+                        }
+                    }
+                }
+            }
+            if(ch3 == 0){
+                sol.push_back(turn+1);
+            }
+        }
+        else
+        {
+            sol.push_back(turn);
+        }
+    }
+}
+
+
+int solution(vector<vector<int>> board, vector<int> aloc, vector<int> bloc) {
+    int answer = -1;
+    board[aloc[0]][aloc[1]] = 0;
+    board[bloc[0]][bloc[1]] = 0;
+    search(board, aloc, bloc, 0, answer);
+    sort(sol.begin(), sol.end());
+    answer = sol.front();
+    return answer;
+}
