@@ -173,6 +173,6 @@ vector<int> solution(vector<long long> numbers) {
 }
 ```
 
-![image-20230115182424228](E:\algorithm_study\윤동근\C++_20230115_[PG]2023KAKAO BLIND RECUITMENT_표현 가능한 이진트리\C++_20230115_[PG]2023KAKAO BLIND RECUITMENT_표현 가능한 이진트리.assets\image-20230115182424228.png)
+![image-20230115182424228](C++_20230115_%5BPG%5D2023KAKAO%20BLIND%20RECUITMENT_%ED%91%9C%ED%98%84%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC.assets/image-20230115182424228.png)
 
 제대로 된 풀이인데 계속 테스트 케이스 16~20번만 틀렸다. 그래서 혹시 범위의 문제인가 하고 unsigned long long으로 고치려 했는데 그것마저 안됐다. 그러다가 최대한 절차적으로 고쳐보려고 시도해 봤는데 3항 연산자를 쓰지 않으니 갑자기 정답으로 처리가 됐다. 그래서 대체 무엇이 문제인지 정말 알고 싶다..
